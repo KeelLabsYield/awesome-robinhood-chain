@@ -1,0 +1,33 @@
+# Regenerates README.md from Hey Research Lab's open dataset every Monday, and on demand.
+name: Update the list
+
+on:
+  schedule:
+    - cron: '23 3 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-list
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/generate.mjs
+      - name: Commit when the list changed
+        run: |
+          if git diff --quiet README.md; then echo "No change."; exit 0; fi
+          git config user.name "HEY Research Lab"
+          git config user.email "327801004+hey-research-lab@users.noreply.github.com"
+          git add README.md
+          git commit -m "List: regenerated from the open dataset"
+          git push
