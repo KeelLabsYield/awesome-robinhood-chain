@@ -22,6 +22,7 @@ with or endorsed by Robinhood. Not investment advice: a listing says a project i
 - [Robinhood Chain explorer](https://robinhoodchain.blockscout.com) — blocks, transactions and verified contracts.
 - [Hey Research Lab](https://heyresearch.xyz) — which projects on Robinhood Chain are still building, and what they shipped, with sources.
 - [HEY MCP server](https://heyresearch.xyz/mcp) — the same research for AI agents, over the Model Context Protocol.
+- [hey-check](https://github.com/hey-research-lab/hey-check) — a dev check for any Robinhood Chain token: is anyone building it, with a shareable card.
 - [hey-cli](https://github.com/hey-research-lab/hey-cli) — HEY's research from the terminal.
 - [hey-ship-action](https://github.com/hey-research-lab/hey-ship-action) — a GitHub Action that writes inspectable evidence linking a commit or release to a Robinhood Chain deployment.
 - [rhchain-registry](https://github.com/hey-research-lab/rhchain-registry) — an open registry of Robinhood Chain projects and contracts.
