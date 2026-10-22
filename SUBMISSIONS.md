@@ -12,3 +12,4 @@ already in the README do not need a line here.
 
 ## Leads
 
+- Keellabs — https://keellabs.app — https://robinhoodchain.blockscout.com/address/0x041CA7A5F1113279edEC154B9B31Ee9380d55A70 — Non-custodial, auto-rebalancing concentrated-liquidity vaults for tokenized stocks on Robinhood Chain (verified factory contract linked).
