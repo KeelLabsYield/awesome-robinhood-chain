@@ -12,3 +12,6 @@ already in the README do not need a line here.
 
 ## Leads
 
+```
+- DoublePlus — https://doubleplus.fun — https://github.com/IlumCI/DoublePlus — coin launchpad where bonding curves graduate into Uniswap v4 pools with locked liquidity
+```
